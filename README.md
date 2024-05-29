@@ -7,7 +7,7 @@ Short-Answer questions:
 
 **Test your Knowledge**
 
-What type would you choose for the following numbers?
+1. What type would you choose for the following numbers?
 
 - A person’s telephone number -> `string`
 - A person’s height -> `float`
@@ -21,7 +21,7 @@ What type would you choose for the following numbers?
 - The number of stars in the universe -> `int`
 - The number of employees in each of the small or medium businesses in the United Kingdom (up to about 50,000 employees per business) -> `int`
 
-### What are the differences between value type and reference type variables? What is boxing and unboxing?
+### 2.What are the differences between value type and reference type variables? What is boxing and unboxing?
 
 **Value Type:**
 
@@ -43,7 +43,7 @@ What type would you choose for the following numbers?
 
 - Unboxing is the reverse process of converting an object back to a value type. When you unbox an object, you extract the value type from the object.
 
-### What is meant by the terms managed resource and unmanaged resource in .NET?
+### 3. What is meant by the terms managed resource and unmanaged resource in .NET?
 
 **Managed Resource:**
 
@@ -53,64 +53,56 @@ What type would you choose for the following numbers?
 
 - These are resources not managed by the CLR, such as file handles, database connections, and memory allocated via the Windows API. Developers must manually release these resources to avoid leaks, often using the IDisposable interface.
 
-### What's the purpose of Garbage Collector in .NET?
+### 4. What's the purpose of Garbage Collector in .NET?
 
 - The garbage collector (GC) in .NET automatically manages memory allocation and deallocation, reclaiming memory from objects that are no longer in use. This helps prevent memory leaks, optimizes memory usage, and improves application performance by reducing manual memory management overhead.
 
 ## Controlling Flow and Converting Types
 
-### What happens when you divide an int variable by 0?
+### 1. What happens when you divide an int variable by 0?
 
 - Dividing an int variable by 0 throws a `System.DivideByZeroException` at runtime.
 
-### What happens when you divide a double variable by 0?
+### 2. What happens when you divide a double variable by 0?
 
 - Dividing a double variable by 0 results in `Infinity` if positive or negative, and `NaN` (Not a Number) if the dividend is also 0.
 
-### What happens when you overflow an int variable, that is, set it to a value beyond its range?
+### 3. What happens when you overflow an int variable, that is, set it to a value beyond its range?
 
 - Overflowing an int variable causes it to wrap around to the minimum value if not checked, or throws an `OverflowException` if checked using the `checked` keyword.
 
-### What is the difference between `x = y++;` and `x = ++y;`?
+### 4. What is the difference between `x = y++;` and `x = ++y;`?
 
 - `x = y++;` assigns y to x and then increments y.
 - `x = ++y;` increments y first and then assigns the incremented value to x.
 
-### What is the difference between `break`, `continue`, and `return` when used inside a loop statement?
+### 5.What is the difference between `break`, `continue`, and `return` when used inside a loop statement?
 
 - `break` exits the loop entirely.
 - `continue` skips the current iteration and proceeds to the next iteration of the loop.
 - `return` exits the loop and the enclosing method, returning a value if specified.
 
-### What are the three parts of a `for` statement and which of them are required?
+### 6.What are the three parts of a `for` statement and which of them are required?
 
 - The three parts are initialization, condition, and iteration. None of these parts are required; a for loop can compile with empty parts (e.g., `for ( ; ; )`).
 
-### What is the difference between the `=` and `==` operators?
+### 7.What is the difference between the `=` and `==` operators?
 
 - `=` is the assignment operator, which assigns a value to a variable.
 - `==` is the equality operator, which checks if two values are equal.
 
-### Does the following statement compile? `for ( ; true; ) ;`
+### 8.Does the following statement compile? `for ( ; true; ) ;`
 
 - Yes, it compiles. It creates an infinite loop with no initialization, condition, or iteration statements.
 
-### What does the underscore `_` represent in a switch expression?
+### 9.What does the underscore `_` represent in a switch expression?
 
 - The underscore `_` is the discard pattern in a switch expression, acting as a default case that matches any value not previously matched.
 
-### What interface must an object implement to be enumerated over by using the `foreach` statement?
+### 10.What interface must an object implement to be enumerated over by using the `foreach` statement?
 
 - An object must implement the `IEnumerable` or `IEnumerable<T>` interface to be enumerated over by the `foreach` statement.
 
----
-
-This formatting should make the content more readable and structured.
-
-
-Here's the properly formatted Markdown version of your questions and answers related to arrays and strings in C#:
-
----
 
 # 02 Arrays and Strings
 
