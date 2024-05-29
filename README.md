@@ -7,7 +7,7 @@ Short-Answer questions:
 
 **Test your Knowledge**
 
-1. What type would you choose for the following numbers?
+### 1. What type would you choose for the following numbers?
 
 - A person’s telephone number -> `string`
 - A person’s height -> `float`
