@@ -1,8 +1,5 @@
-Sure, here's the properly formatted Markdown version of your text:
 
----
-
-# Introduction to C# and Data Types
+# 01 Introduction to C# and Data Types
 
 ## Understanding Data Types
 
@@ -107,3 +104,60 @@ What type would you choose for the following numbers?
 ---
 
 This formatting should make the content more readable and structured.
+
+
+Here's the properly formatted Markdown version of your questions and answers related to arrays and strings in C#:
+
+---
+
+# 02 Arrays and Strings
+
+## Test your Knowledge
+
+### 1. When to use String vs. StringBuilder in C#?
+
+- Use `String` when you need immutable strings, meaning the string value does not change after it is created. This is suitable for small string manipulations.
+- Use `StringBuilder` for mutable strings, where you need to perform a large number of modifications (append, remove, insert) to the string, as it is more efficient for such operations.
+
+### 2. What is the base class for all arrays in C#?
+
+- The base class for all arrays in C# is `System.Array`.
+
+### 3. How do you sort an array in C#?
+
+- You can sort an array in C# using the `Array.Sort()` method. For example:
+  ```csharp
+  int[] numbers = { 5, 2, 8, 3, 9 };
+  Array.Sort(numbers);
+  ```
+
+### 4. What property of an array object can be used to get the total number of elements in an array?
+
+- The `Length` property of an array object can be used to get the total number of elements in an array.
+  ```csharp
+  int[] numbers = { 5, 2, 8, 3, 9 };
+  int totalElements = numbers.Length; // totalElements will be 5
+  ```
+
+### 5. Can you store multiple data types in System.Array?
+
+- No, `System.Array` is a collection of elements of the same type. To store multiple data types, you can use collections like `ArrayList` or `List<object>`.
+
+### 6. What’s the difference between the System.Array.CopyTo() and System.Array.Clone()?
+
+- `System.Array.CopyTo()`: Copies the elements of one array to another existing array starting at the specified index of the target array.
+  ```csharp
+  int[] sourceArray = { 1, 2, 3 };
+  int[] targetArray = new int[3];
+  sourceArray.CopyTo(targetArray, 0);
+  ```
+
+- `System.Array.Clone()`: Creates a shallow copy of the array. The returned array has the same size and elements as the original array.
+  ```csharp
+  int[] sourceArray = { 1, 2, 3 };
+  int[] clonedArray = (int[])sourceArray.Clone();
+  ```
+
+---
+
+This formatting should make the content clear and easy to understand.
