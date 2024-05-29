@@ -157,7 +157,3 @@ Here's the properly formatted Markdown version of your questions and answers rel
   int[] sourceArray = { 1, 2, 3 };
   int[] clonedArray = (int[])sourceArray.Clone();
   ```
-
----
-
-This formatting should make the content clear and easy to understand.
