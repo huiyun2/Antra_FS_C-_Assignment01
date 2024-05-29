@@ -1,16 +1,9 @@
-{\rtf1\ansi\ansicpg1252\cocoartf2761
-\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica-Bold;\f1\fswiss\fcharset0 Helvetica;}
-{\colortbl;\red255\green255\blue255;\red0\green0\blue0;}
-{\*\expandedcolortbl;;\cssrgb\c0\c0\c0;}
-\margl1440\margr1440\vieww11520\viewh8400\viewkind0
-\deftab720
-\pard\pardeftab720\sa213\partightenfactor0
 
-\f0\b\fs32 \cf0 \expnd0\expndtw0\kerning0
+
 01 Introduction to C# and Data Types
-\f1\b0 \
-Understanding Data Types\
-Test your Knowledge\
+
+Understanding Data Types
+Test your Knowledge
 1. What type would you choose for the following \'93numbers\'94?\
 A person\'92s telephone number -> string\
 A person\'92s height -> float\
