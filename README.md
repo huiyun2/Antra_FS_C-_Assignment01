@@ -3,9 +3,6 @@ Short-Answer questions:
 
 # 01 Introduction to C# and Data Types
 
-## Understanding Data Types
-
-**Test your Knowledge**
 
 ### 1. What type would you choose for the following numbers?
 
@@ -106,7 +103,6 @@ Short-Answer questions:
 
 # 02 Arrays and Strings
 
-## Test your Knowledge
 
 ### 1. When to use String vs. StringBuilder in C#?
 
